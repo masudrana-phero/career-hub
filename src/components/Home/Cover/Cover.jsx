@@ -5,7 +5,7 @@ import user from "../../../assets/images/user.png";
 
 const Cover = () => {
   return (
-    <div className="flex">
+    <div className="grid md:grid-cols-2 ">
       <div className="flex justify-center items-center h-auto">
         <div className="">
           <div className="text-5xl">
@@ -28,7 +28,7 @@ const Cover = () => {
 
       {/* image section start here  */}
 
-      <div className="flex justify-end h-screen">
+      <div className="sm:text-center">
         <img className="max-w-3xl h-[600px]" src={user} alt="" />
       </div>
     </div>
